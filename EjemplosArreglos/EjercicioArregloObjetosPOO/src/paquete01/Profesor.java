@@ -18,7 +18,7 @@ public class Profesor {
         nombre = n;
         tipo = t;
     }
-
+    
     public void establecerNombre(String n) {
         nombre = n;
     }
