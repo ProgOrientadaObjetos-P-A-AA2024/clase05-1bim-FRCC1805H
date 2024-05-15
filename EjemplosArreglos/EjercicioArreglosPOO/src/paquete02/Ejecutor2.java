@@ -18,7 +18,11 @@ public class Ejecutor2 {
 
         LibretaCalificacion L2 = new LibretaCalificacion(nombreestudiante, notas);
         L2.establecerPromedio();
+        // No se presenta la calificacion y sale oooo pero si sepresenta las notas
+        // y el codigo es como si nunca lo llama al metodo del problema.
         L2.establecerPromedioCualitativo();
+        // saldria nul por que en ningun momento esta llamando al metodo de 
+        // promedio cualitativo saldria nuul 
         System.out.printf(" %s\n ",L2);
     }
 }
