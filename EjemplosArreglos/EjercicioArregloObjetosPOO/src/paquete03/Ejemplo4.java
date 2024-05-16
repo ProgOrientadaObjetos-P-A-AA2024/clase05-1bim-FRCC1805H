@@ -24,7 +24,7 @@ public class Ejemplo4 {
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f\n - Profesor(%s)\n", 
+            System.out.printf("%s - %.2f - Profesor(%s)\n", 
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     // Me sirve para porder presentar valores de otras clases 
