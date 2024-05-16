@@ -17,7 +17,12 @@ public class Ejecutor {
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
-                
+        c1.establecerProfesor(profesor1);
+        // Con los valores del objeto creado en esta clase llamamos a los es
+        // establecer para poder presentar y asignarles un valor 
+        // para asi presentar los datos por teclado 
+        c2.establecerProfesor(profesor2);
+        c3.establecerProfesor(profesor3);
         Calificacion [] lista = {c1, c2, c3}; 
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
